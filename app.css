@@ -1,0 +1,64 @@
+/*Write CSS Here*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap');
+h1 {
+    font-weight: 400;
+    font-size: 70px;
+    text-transform: uppercase;
+    border-top: 5px solid;
+    margin: 10px;
+}
+
+body {
+    background-color: #F69680;
+    color: #2e1263;
+    font-family: "Yanone Kaffeesatz";
+    font-weight: 300;
+}
+
+#left,
+#right {
+    height: 100px;
+    padding: 20px 50px;
+    display: inline-block;
+}
+
+#center {
+    height: 300px;
+    padding: 20px 50px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    margin: 10px;
+    padding: 20px;
+    background-color: #F69680;
+    font-size: 14px;
+    border: 1px solid #2e1263;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    letter-spacing: 4px;
+    color: #2e1263;
+}
+
+#themes {
+    display: inline-block;
+}
+
+button:hover {
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+}
